@@ -1,0 +1,62 @@
+/* Estilo geral da seção */
+#sobre-criador {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(105, 184, 253);
+  }
+  
+  /* Estilo da imagem */
+  .criador img {
+    border-radius: 50%;
+    width: 200px;
+  }
+  
+  /* Estilo das informações */
+  .informacoes {
+    margin-top: 20px;
+  }
+  
+  /* Estilo das redes sociais */
+  .redes-sociais {
+    margin-top: 20px;
+  }
+  
+  .redes-sociais a {
+    color: #f11b1b;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+
+  * Estiliza o rodapé da página */
+footer {
+  background-color: #e90909; /* Cor de fundo do rodapé */
+  color: #45474B; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 0; /* Espaçamento interno */
+  width: 100%; /* Largura total da página */
+  position: absolute; /* Posiciona o rodapé */
+  bottom: 0; /* Alinha ao fundo da página */
+  font-size: 1rem; /* Tamanho da fonte */
+}
+
+/* Estiliza os inputs dentro das seções X*/
+section input {
+  width: 30rem; /* Largura dos inputs */
+  border: none; /* Remove a borda padrão */
+  padding: 1rem; /* Espaçamento interno */
+  border-radius: 1.5rem; /* Borda arredondada */
+  margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+  color: #1643e9; /* Cor do texto */
+  font-size: 1rem; /* Tamanho da fonte */
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+/* troca cor da letras */ 
+p {
+  color: rgba(41, 9, 82, 0.849);
+}
+
+.Criador img {
+  width: 150px; /* Ajuste o valor para a largura desejada */
+  height: auto; /* Manterá a proporção da imagem */
+}
+

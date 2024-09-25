@@ -1,0 +1,217 @@
+body {
+    background-color: #F5F7F8;
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    text-align: center;
+    display: flex; /* Usa Flexbox para layout */
+    height: 100vh; /* Preenche a altura total da viewport */
+    padding: 100px;
+    flex-direction: column; /* Alinha os itens na vertical */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin: 0;
+    padding: 0;
+}
+.list {
+
+  list-style: square;
+  
+  }
+  
+  #msg {
+  
+  font-family: monospace;
+  
+  }
+
+  .alinhado-esquerda {
+    text-align: left;
+  }
+
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.galeria img {
+    width: 32%; /* Ajustar a largura conforme necessário */
+    margin-bottom: 20px;
+}
+ /* troca cor da letras */ 
+p {
+  color: rgb(15, 13, 11);
+}
+
+.navbar {
+  background-color: #333; /* Cor cinza escura */
+  color: rgb(36, 2, 2); /* Cor do texto */
+  padding: 15px;
+}
+
+  /* Estiliza os títulos h1 */ 
+h3 {
+  font-size: 2.5rem; /* Tamanho da fonte */
+  color: #106425; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+  letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+
+ /* Estiliza os títulos h2 */ 
+ h2 {
+  font-size: 1.8rem; /* Tamanho da fonte */
+  color: #0f7c1d; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+  letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+h1{
+  font-size: 2.5rem; /* Tamanho da fonte */
+  color: #257510; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+  letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout X*/
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+}
+
+/* Estiliza os inputs dentro das seções X*/
+section input {
+  width: 30rem; /* Largura dos inputs */
+  border: none; /* Remove a borda padrão */
+  padding: 1rem; /* Espaçamento interno */
+  border-radius: 1.5rem; /* Borda arredondada */
+  margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+  color: #11131a; /* Cor do texto */
+  font-size: 1rem; /* Tamanho da fonte */
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seçõesX */
+section button {
+  padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+  border: none; /* Remove a borda padrão */
+  border-radius: 1.5rem; /* Borda arredondada */
+  background-color: #30475E; /* Cor de fundo do botão */
+  color: #F5F7F8; /* Cor do texto do botão */
+  font-size: 1rem; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estiliza a caixa de resultados da pesquisa X*/
+.resultados-pesquisa {
+  width: 60rem; /* Largura máxima da caixa de resultados */
+  height: 46vh; /* Altura máxima da caixa de resultados */
+  overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+  margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+  padding: 1rem; /* Espaçamento interno */
+  border-radius: 0.6rem; /* Borda arredondada */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado h2 {
+  background: #FFFFFF; /* Cor de fundo dos itens */
+  border-radius: 0.6rem; /* Borda arredondada */
+  padding: 1rem; /* Espaçamento interno */
+  margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+  color: #0d0f14; /* Cor do texto */
+  margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+  background-color: #F5F7F8; /* Cor de fundo do rodapé */
+  color: #45474B; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 0; /* Espaçamento interno */
+  width: 100%; /* Largura total da página */
+  position: absolute; /* Posiciona o rodapé */
+  bottom: 0; /* Alinha ao fundo da página */
+  font-size: 1rem; /* Tamanho da fonte */
+}
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #130d25;
+    border-radius: 4px solid #da0808;;
+  }
+  
+  
+  
+  .imagem-pequena {
+      flex: 0 0 200px; /* Define a largura da imagem */
+      height: 150px;
+  }
+
+  .com-moldura {
+    border: 2px solid black; /* Ajustar espessura, estilo e cor conforme necessário */
+}
+
+
+/* No seu arquivo styles.css */
+#contato {
+  height: 100vh; /* 100vh significa 100% da altura da viewport */
+  width: 100vw; /* 100vw significa 100% da largura da viewport */
+  margin: 0; /* Remove as margens padrão */
+  padding: 0; /* Remove o padding padrão */
+}
+/* coloca titulo de lado a lado home etc */
+
+nav ul {
+  list-style: none; /* Remove os marcadores da lista */
+  display: flex; /* Torna os itens da lista flexíveis */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+nav ul li {
+  margin: 0 10px; /* Adiciona um espaço entre os itens */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+/*trocar da letra sobre titulo*/
+nav ul li h4 a {
+  color: #1e22db; /* Change the link color to blue */
+}
+
+nav ul li h4 {
+  color: #444444; /* Change the heading color to dark gray */
+}
+
+
+
+
